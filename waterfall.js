@@ -43,7 +43,7 @@
 
     }
 
-    Waterfall.prototype._getMinHIndex = function(arr,minh){
+    Waterfall.prototype._getMinHIndex = function(arr,minh){ // 获取最小高度的索引值
         for(var i in arr){
             if(arr[i] == minh){
                 return i
